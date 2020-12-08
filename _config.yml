@@ -1,4 +1,4 @@
-# Hexo Configuration
+﻿# Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -144,5 +144,5 @@ abbrlink:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:kcyln/butterfly.github.io.git
+  repo: git@github.com:kcyln/kcyln.github.io.git
   branch: main
