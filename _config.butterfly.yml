@@ -96,11 +96,11 @@ index_img: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/07/6cc9
 default_top_img:
 
 # The banner image of archive page
-archive_img: http://img.netbian.com/file/2019/0125/01a2990f9e6125fa93b01441aab2cc2e.jpg
+archive_img: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/09/9974d0704a8d84ca7c3b6ebac2c50f50.png
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子标签页面的 top_img)
-tag_img: http://img.netbian.com/file/2019/0401/b5f6d7e765dfc8a70e9aed2783784203.jpg
+tag_img: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/09/d60a4955d8b99db6f7d746fd3856db8c.png
 
 # The banner image of tag page
 # format:
@@ -109,7 +109,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分类页面的 top_img)
-category_img: http://img.netbian.com/file/2017/0522/daffd47dd0c7c0c0518852c391204fa4.jpg
+category_img: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/09/df4b7fa6c5bb6dca930d58db4f60ec8d.png
 
 # The banner image of category page
 # format:

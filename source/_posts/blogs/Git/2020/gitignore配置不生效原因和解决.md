@@ -36,7 +36,7 @@ description: 关于.gitignore不生效原因和解决方法
   git update-index --assume-unchanged PATH  # PATH处输入要忽略的文件
   ```
 
-### 在使用.gitignore文件后如何删除远程仓库中以前上传的此类文件而保留本地文件
+**在使用.gitignore文件后如何删除远程仓库中以前上传的此类文件而保留本地文件**
 
 ​        在使用git和github的时候，之前没有写.gitignore文件，就上传了一些没有必要的文件，在添加了.gitignore文件后，就想删除远程仓库中的文件但想保存本地的文件，使用以下命令处理：
 

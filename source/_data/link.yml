@@ -14,6 +14,27 @@
       avatar: https://butterfly.js.org/image/avatar.png
       descr: A Simple and Card UI Design theme for Hexo
 
+- class_name: 工具集
+  class_desc: 常用工具网站
+  link_list:
+    - name: 云短信
+      link: https://www.materialtools.com/
+      avatar: https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3303571869,1553378768&fm=26&gp=0.jpg
+      descr: 在线短信接收
+    - name: 文本差异对比
+      link: https://www.jq22.com/textDifference
+      avatar: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607508936710&di=b38bee159792a53599ca2f9788eb5bed&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F16%2F11%2F12%2F36dc805b795c733a73e9fdc88e78384a.jpg
+      descr: 在线文本差异对比,文本比对、文本比较工具
+    - name: 图标库
+      link: http://www.fontawesome.com.cn/faicons/
+      avatar: https://ae01.alicdn.com/kf/HTB1dRY0X8OD3KVjSZFFq6An9pXay.jpg
+      descr: Fontawesome中文版
+    - name: 爬虫工具导航
+      link: https://crawlaio.com/#
+      avatar: https://crawlaio.com/images/logo.png
+      descr: 爬虫工具导航 - Crawler All In One
+
+
 - class_name: 网站
   class_desc: 值得推荐的网站
   link_list:

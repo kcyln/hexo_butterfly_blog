@@ -7,9 +7,10 @@ categories:
   - Python
 abbrlink: 2157fcb1
 date: 2019-10-01 12:00:00
+updated: 2019-10-01 12:00:00
+keywords: ubuntu,juptyer notebook
+description: ubuntu 16.04虚拟机使用jupyter notebook报错
 ---
-
-<!-- more -->
 
 本来打算使用下jupyter notebook，结果运行时报错了
 

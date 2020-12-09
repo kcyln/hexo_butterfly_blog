@@ -7,17 +7,18 @@ categories:
   - Python
 abbrlink: fd59dc2b
 date: 2019-10-01 12:00:00
+updated: 2019-10-01 12:00:00
+keywords: requests,scrapy
+description: 记录requests几个小技巧和scrapy环境配置
 ---
 
-<!-- more -->
-
-### Requests小技巧
+## Requests小技巧
 
 * `requests.utils.dict_from_cookiejar` 把cookie对象转化为字典
 * 请求SSL证书验证  `requests.get("<https://www.12306.cn/mormhweb/>", verify=False)`
 * 配合状态码判断是否请求成功 `assert response.status_code ==200`
 
-### Scrapy
+## Scrapy
 
 > 爬虫库 python3.6以上
 

@@ -6,9 +6,10 @@ categories:
   - Linux
 abbrlink: cb42f876
 date: 2019-10-01 12:00:00
+updated: 2019-10-01 12:00:00
+keywords: awesome,supervisor
+description: supervisor部署awesome时报错
 ---
-
-<!-- more -->
 
 ```
 [program:awesome]

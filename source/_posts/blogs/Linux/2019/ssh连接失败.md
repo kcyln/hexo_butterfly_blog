@@ -6,11 +6,12 @@ categories:
   - Linux
 abbrlink: a28edf8d
 date: 2019-10-01 12:00:00
+updated: 2019-10-01 12:00:00
+keywords: ssh,linux
+description: ssh连接失败
 ---
 
-<!-- more -->
-
-### 问题：ssh: connect to host xx.xxx.xxx.xxx port 22: Connection refused.
+## 问题：ssh: connect to host xx.xxx.xxx.xxx port 22: Connection refused.
 
 1. 检查是否安装ssh服务
     ```

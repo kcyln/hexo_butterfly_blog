@@ -6,9 +6,10 @@ categories:
   - Python
 abbrlink: ec1f4cbd
 date: 2020-09-23 00:00:00
+updated: 2020-09-23 00:00:00
+keywords: python3,redis
+description: python3下读取redis返回bytes类型而不是字符串解决办法
 ---
-
-<!-- more -->
 
 **问题**
 

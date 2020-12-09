@@ -6,9 +6,10 @@ categories:
   - Python
 abbrlink: 695ebb9c
 date: 2019-10-01 12:00:00
+updated: 2019-10-01 12:00:00
+keywords: python,matplotlib
+description: matplotlib设置中文显示
 ---
-
-<!-- more -->
 
 ​matplotlib默认不支持中文字符，因为默认的英文字体无法显示汉字。
 

@@ -6,11 +6,12 @@ categories:
   - Python
 abbrlink: 942da6d9
 date: 2020-08-19 00:00:00
+updated: 2020-08-19 00:00:00
+keywords: pip
+description: pip换源，提高下载速度
 ---
 
-<!-- more -->
-
-### 介绍
+## 介绍
 
 ```wiki
 1、pip直接安装时速度比较慢，所以使用国内源，可以加速下载模块的速度
@@ -23,9 +24,9 @@ date: 2020-08-19 00:00:00
 	-- pip install -i https://pypi.douban.com/simple 模块名
 ```
 
-### 永久配置安装源
+## 永久配置安装源
 
-#### Windows
+### Windows
 
 ```wiki
 1、资源管理器地址栏输入 %APPDATA% 然后回车，可以直接进入 C:\Users\用户名\AppData\Roaming 目录
@@ -33,7 +34,7 @@ date: 2020-08-19 00:00:00
 3、在 pip.ini 进行配置
 ```
 
-#### MacOS、Linux
+### MacOS、Linux
 
 ```wiki
 1、在用户家目录下创建 .pip 隐藏文件夹，如果已经有了可以跳过
@@ -43,7 +44,7 @@ date: 2020-08-19 00:00:00
 3、在 pip.conf 进行配置
 ```
 
-#### 配置文件内容
+### 配置文件内容
 
 ```ini
 [global]
