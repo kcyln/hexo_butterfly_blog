@@ -392,7 +392,7 @@ baidu_analytics: 584bfa4db6126a105facde0677e4ef55
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
-google_analytics:
+google_analytics: G-CYJNKFDP03
 
 # Tencent Analytics ID
 # https://mta.qq.com
@@ -432,7 +432,7 @@ bing_site_verification:
 
 # Baidu Webmaster tools verification setting
 # See: https://ziyuan.baidu.com/site/
-baidu_site_verification:
+baidu_site_verification: http://data.zz.baidu.com/urls?site=https://kcyln.gitee.io&token=OxN6ShKmGLRo1lRY
 
 # 360 Webmaster tools verification setting
 # see http://zhanzhang.so.com/

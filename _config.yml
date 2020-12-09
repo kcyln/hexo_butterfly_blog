@@ -139,6 +139,11 @@ abbrlink:
   auto_date: false #enable auto date, it can auto fill the date by time today
   force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
 
+# 为网站使用到的所有外链添加rel="noopener external nofollow noreferrer", 可以有效地加强网站SEO和防止权重流失
+nofollow:
+  enable: true
+  field: site
+  exclude:
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
