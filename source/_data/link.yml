@@ -34,7 +34,6 @@
       avatar: https://crawlaio.com/images/logo.png
       descr: 爬虫工具导航 - Crawler All In One
 
-
 - class_name: 网站
   class_desc: 值得推荐的网站
   link_list:
@@ -46,7 +45,31 @@
       link: https://www.weibo.com/
       avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
       descr: 中国最大社交分享平台
-    - name: Twitter
-      link: https://twitter.com/
-      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
-      descr: 社交分享平台
+    - name: 彼岸桌面壁纸
+      link: http://www.netbian.com/
+      avatar: http://img.netbian.com/file/2020/0702/7a637948df7c661b616d7fcf03e9d04c.jpg
+      descr: 4K 4K壁纸 高清壁纸 电脑壁纸
+
+- class_name: 网站2
+  class_desc: 有意思的网站
+  link_list:
+    - name: 自由钢琴 - AutoPiano
+      link: https://www.autopiano.cn/
+      avatar: https://www.autopiano.cn/favicon.ico
+      descr: 在线弹钢琴，听钢琴曲，超好听，超好玩 - Play Piano Online
+    - name: 自由聊天室
+      link: https://hack.chat/
+      avatar: https://hack.chat/favicon.ico
+      descr: 随机创建用户加入聊天
+    - name: happy happy hardcore
+      link: https://happyhappyhardcore.com/
+      avatar: https://happyhappyhardcore.com/favicon-32x32.png
+      descr: 全屏表情雨
+    - name: Liquid Particles 3D
+      link: http://www.spielzeugz.de/html5/liquid-particles-3D/
+      avatar: 
+      descr: 3D液体粒子
+    - name: Strobe Illusion
+      link: https://strobe.cool/
+      avatar: https://strobe.cool/assets/images/icon-32.png
+      descr: 变形世界

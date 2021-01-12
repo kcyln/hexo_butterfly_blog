@@ -14,9 +14,9 @@ menu:
   文档||fas fa-book:
     - 常用安装 || /posts/f4956656/ || fas fa-cog
   娱乐||fas fa-heartbeat:
-    - 音乐 || /music/ || fas fa-music
-    - 照片 || /Gallery/ || fas fa-images
-    - 电影 || /movies/ || fas fa-video
+    - 音乐 || /musics/ || fas fa-music
+    - 小说 || /novels/ || fas fa-book
+    - 动漫 || /comics/ || fas fa-list-alt
   友情链接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
