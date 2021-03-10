@@ -19,6 +19,7 @@ menu:
     - 动漫 || /comics/ || fas fa-list-alt
   友情链接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
+  导航: https://ToolNavigation.github.io/ || fas fa-location-arrow
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
