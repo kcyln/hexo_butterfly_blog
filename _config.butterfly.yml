@@ -41,12 +41,12 @@ copy:
     enable: false
     limit_count: 50
 
-# social settings (社交图标設置)
+# social settings (社交圖標設置)
 # formal:
 #   icon: link || the description
 social:
   fab fa-github: https://github.com/kcyln || Github
-  fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fas fa-envelope: mailto:2444572529@qq.com || Email
 
 # search (搜索)
 # --------------------------------------
@@ -68,9 +68,9 @@ search:
 # Math (數學)
 # --------------------------------------
 # About the per_page
-# if you set it to true, it will load mathjax/katex script in each page (true 表示每一页都加载js)
+# if you set it to true, it will load mathjax/katex script in each page (true 表示每一頁都加載js)
 # if you set it to false, it will load mathjax/katex script according to your setting (add the 'mathjax: true' in page's front-matter)
-# (false 需要時加载，須在使用的 Markdown Front-matter 加上 mathjax: true)
+# (false 需要時加載，須在使用的 Markdown Front-matter 加上 mathjax: true)
 
 # MathJax
 mathjax:
@@ -86,13 +86,16 @@ katex:
 # Image (圖片設置)
 # --------------------------------------
 
-# Favicon（网站图标）
+# Favicon（網站圖標）
 favicon: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/07/9a938caffcb1a6968eab7f8e0cd6857b.png
 
-# Avatar (头像)
+# Avatar (頭像)
 avatar:
   img: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/07/8b2bf57d105d56f23dc7d3fa1b08cd9a.png
   effect: false
+
+# Disable all banner image
+disable_top_img: false
 
 # The banner image of home page
 index_img: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/07/6cc9bf6775b29149e1b61c75beed6005.png
@@ -104,7 +107,7 @@ default_top_img:
 archive_img: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/09/9974d0704a8d84ca7c3b6ebac2c50f50.png
 
 # If the banner of tag page not setting, it will show the top_img
-# note: tag page, not tags page (子标签页面的 top_img)
+# note: tag page, not tags page (子標籤頁面的 top_img)
 tag_img: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/09/d60a4955d8b99db6f7d746fd3856db8c.png
 
 # The banner image of tag page
@@ -113,7 +116,7 @@ tag_img: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/09/d60a49
 tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
-# note: category page, not categories page (子分类页面的 top_img)
+# note: category page, not categories page (子分類頁面的 top_img)
 category_img: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/09/df4b7fa6c5bb6dca930d58db4f60ec8d.png
 
 # The banner image of category page
@@ -122,41 +125,41 @@ category_img: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/09/d
 category_per_img:
 
 cover:
-  # display the cover or not (是否显示文章封面)
+  # display the cover or not (是否顯示文章封面)
   index_enable: true
   aside_enable: true
   archives_enable: true
-  # the position of cover in home page (封面显示的位置)
+  # the position of cover in home page (封面顯示的位置)
   # left/right/both
   position: both
-  # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面显示)
+  # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
-# Replace Broken Images (替换無法显示的圖片)
+# Replace Broken Images (替換無法顯示的圖片)
 error_img:
   flink: /img/friend_404.gif
   post_page: /img/404.jpg
 
 # A simple 404 page
 error_404:
-  enable: true
+  enable: false
   subtitle: 'Page Not Found'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
   page: # Home Page
-    date_type: both # created or updated or both 主页文章日期是創建日或者更新日或都显示
-    date_format: relative # date/relative 显示日期還是相對日期
-    categories: true # true or false 主页是否显示分类
-    tags: true # true or false 主页是否显示标签
-    label: true # true or false 显示描述性文字
+    date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_format: relative # date/relative 顯示日期還是相對日期
+    categories: true # true or false 主頁是否顯示分類
+    tags: true # true or false 主頁是否顯示標籤
+    label: true # true or false 顯示描述性文字
   post:
-    date_type: both # created or updated or both 文章页日期是創建日或者更新日或都显示
-    date_format: date # date/relative 显示日期還是相對日期
-    categories: true # true or false 文章页是否显示分类
-    tags: true # true or false 文章页是否显示标签
-    label: true # true or false 显示描述性文字
+    date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
+    date_format: date # date/relative 顯示日期還是相對日期
+    categories: true # true or false 文章頁是否顯示分類
+    tags: true # true or false 文章頁是否顯示標籤
+    label: true # true or false 顯示描述性文字
 
 # wordcount (字數統計)
 wordcount:
@@ -181,6 +184,7 @@ index_post_content:
 toc:
   enable: true
   number: true
+  style_simple: false
 
 post_copyright:
   enable: true
@@ -199,14 +203,29 @@ reward:
     #   link:
     #   text: alipay
 
+# Post edit
+# Easily browse and edit blog source code online.
+post_edit:
+  enable: false
+  # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
+  # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
+  url:
+
 # Related Articles
 related_post:
   enable: true
   limit: 6 # Number of posts displayed
-  date_type: created # or created or updated 文章日期显示創建日或者更新日
+  date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption (圖片描述文字)
 photofigcaption: false
+
+# post_pagination (分頁)
+# value: 1 || 2 || false
+# 1: The 'next post' will link to old post
+# 2: The 'next post' will link to new post
+# false: disable pagination
+post_pagination: 1
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
@@ -247,15 +266,17 @@ addtoany:
 
 comments:
   # Up to two comments system, the first will be shown as default
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
+    # - Waline
   # - Valine
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
-  count: false # Display comment count in top_img
+  lazyload: true
+  count: true # Display comment count in post's top_img
+  card_post_count: false # Display comment count in Home Page
 
 # disqus
 # https://disqus.com/
@@ -311,6 +332,15 @@ valine:
   requiredFields: nick,mail # required fields (nick/mail)
   option:
 
+# waline - A simple comment system with backend support fork from Valine
+# https://waline.js.org/
+waline:
+  serverURL: # Waline server address url
+  avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
+  emojiCDN: # emoji CDN
+  bg: # waline background
+  option:
+
 # utterances
 # https://utteranc.es/
 utterances:
@@ -333,6 +363,9 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
+  envId:
+  region:
+  option:
 
 # Chat Services
 # --------------------------------------
@@ -382,11 +415,6 @@ footer:
     since: 2020
   custom_text: Hi, welcome to my blog!
   copyright: true # Copyright of theme and framework
-  ICP: # Chinese ICP License
-    enable: false
-    url:
-    text:
-    icon: /img/icp.png
 
 # Analysis
 # --------------------------------------
@@ -406,6 +434,14 @@ tencent_analytics:
 # CNZZ Analytics
 # https://www.umeng.com/
 cnzz_analytics:
+
+# Cloudflare Analytics
+# https://www.cloudflare.com/zh-tw/web-analytics/
+cloudflare_analytics:
+
+# Microsoft Clarity
+# https://clarity.microsoft.com/
+microsoft_clarity:
 
 # Advertisement
 # --------------------------------------
@@ -469,15 +505,15 @@ yandex_site_verification:
 #   blockquote_background_color: "#49b1f5"
 
 # The top_img settings of home page
-# default: top img - full screen, site info - middle (默認top_img全屏，site_info在中间)
-# The position of site info, eg: 300px/300em/300rem/10% (主页标题距離頂部距離)
+# default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
+# The position of site info, eg: 300px/300em/300rem/10% (主頁標題距離頂部距離)
 index_site_info_top:
-# The height of top_img, eg: 300px/300em/300rem (主页top_img高度)
+# The height of top_img, eg: 300px/300em/300rem (主頁top_img高度)
 index_top_img_height:
 
-# The user interface setting of category and tag page (category和tag页的UI設置)
-# index - same as Homepage UI (index 值代表 UI將與首页的UI一樣)
-# default - same as archives UI 默認跟archives页面UI一樣
+# The user interface setting of category and tag page (category和tag頁的UI設置)
+# index - same as Homepage UI (index 值代表 UI將與首頁的UI一樣)
+# default - same as archives UI 默認跟archives頁面UI一樣
 category_ui: # 留空或 index
 tag_ui: # 留空或 index
 
@@ -492,7 +528,7 @@ footer_bg: true
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
 
-# Enter transitions (開啓網页進入效果)
+# Enter transitions (開啓網頁進入效果)
 enter_transitions: true
 
 # Background effects (背景特效)
@@ -550,13 +586,14 @@ ClickShowText:
     # - LOVE
     # - YOU
   fontSize: 15px
+  random: false
   mobile: false
 
-# Default display mode (網站默認的显示模式)
+# Default display mode (網站默認的顯示模式)
 # light (default) / dark
 display_mode: light
 
-# Beautify (美化页面显示)
+# Beautify (美化頁面顯示)
 beautify:
   enable: true
   field: post # site/post
@@ -572,18 +609,18 @@ font:
   code-font-family:
 
 # Font settings for the site title and site subtitle
-# 左上角網站名字 主页居中網站名字
+# 左上角網站名字 主頁居中網站名字
 blog_title_font:
   font_link:
   font-family:
 
-# The setting of divider icon (水平分隔线图标設置)
+# The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
   enable: true
   icon: # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
-# the subtitle on homepage (主页subtitle)
+# the subtitle on homepage (主頁subtitle)
 subtitle:
   enable: true
   # Typewriter Effect (打字效果)
@@ -592,22 +629,22 @@ subtitle:
   loop: true
   # source調用第三方服務
   # source: false 關閉調用
-  # source: 1  調用搏天api的隨機語錄（簡體） https://api.btstu.cn/
-  # source: 2  調用一言網的一句話（簡體） https://hitokoto.cn/
-  # source: 3  調用一句網（簡體） http://yijuzhan.com/
-  # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
-  # subtitle 會先显示 source , 再显示 sub 的內容
+  # source: 1  調用搏天api的隨機語錄（簡體）
+  # source: 2  調用一言網的一句話（簡體）
+  # source: 3  調用一句網（簡體）
+  # source: 4  調用今日詩詞（簡體）
+  # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: false
-  # 如果有英文逗號' , ',請使用转義字元 &#44;
-  # 如果有英文雙引號' " ',請使用转義字元 &quot;
-  # 開頭不允許转義字元，如需要，請把整個句子用雙引號包住
-  # 如果關閉打字效果，subtitle只會显示sub的第一行文字
+  # 如果有英文逗號' , ',請使用轉義字元 &#44;
+  # 如果有英文雙引號' " ',請使用轉義字元 &quot;
+  # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
+  # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
     - 声起立华月独奏，曲末音无心结弦。
     - 音无结弦之时，悦动天使之心，立于浮华之世，奏响天籁之音。
     - 一笑风雷震，一怒沧海寒;一手破苍穹，一剑舞长天！
 
-# Loading Animation (加载動畫)
+# Loading Animation (加載動畫)
 preloader: true
 
 # aside (側邊欄)
@@ -623,6 +660,7 @@ aside:
     enable: true
     description:
     button:
+      enable: true
       icon: fab fa-github
       text: Github
       link: https://github.com/kcyln
@@ -633,24 +671,29 @@ aside:
     enable: true
     limit: 5 # if set 0 will show all
     sort: date # date or updated
+    sort_order: # Don't modify the setting unless you know how it works
   card_categories:
     enable: true
     limit: 8 # if set 0 will show all
     expand: none # none/true/false
+    sort_order: # Don't modify the setting unless you know how it works
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
     color: false
+    sort_order: # Don't modify the setting unless you know how it works
   card_archives:
     enable: true
     type: monthly # yearly or monthly
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
     limit: 8 # if set 0 will show all
+    sort_order: # Don't modify the setting unless you know how it works
   card_webinfo:
     enable: true
     post_count: true
     last_push_date: true
+    sort_order: # Don't modify the setting unless you know how it works
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -659,7 +702,7 @@ busuanzi:
   site_pv: true
   page_pv: true
 
-# Time difference between publish date and now (網页運行時间)
+# Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
@@ -668,14 +711,12 @@ runtimeshow:
 # Aside widget - Newest Comments
 newest_comments:
   enable: false
+  sort_order: # Don't modify the setting unless you know how it works
   limit: 6
+  storage: 10 # unit: mins, save data to localStorage
   avatar: true
-  leancloud:
-    enable: false
-    appId: # leancloud application app id
-    appKey: # leancloud application app key
-    serverURL: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-    default_avatar: # mp/identicon/monsterid/wavatar/retro/robohash/blank
+  # You can only choose one, or neither
+  valine: false
   github_issues:
     enable: false
     repo:
@@ -683,11 +724,16 @@ newest_comments:
     enable: false
     forum:
     api_key:
+  twikoo: false
+  waline: false
 
 # Bottom right button (右下角按鈕)
 # --------------------------------------
 
-# Conversion between Traditional and Simplified Chinese (簡繁转换)
+# Change font size
+change_font_size: false
+
+# Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
   enable: false
   # The text of a button
@@ -709,7 +755,7 @@ darkmode:
   enable: true
   # Toggle Button to switch dark/light mode
   button: true
-  # Switch dark/light mode automatically (自動切换 dark mode和 light mode)
+  # Switch dark/light mode automatically (自動切換 dark mode和 light mode)
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
@@ -727,7 +773,7 @@ medium_zoom: false
 # http://fancyapps.com/fancybox/3/
 fancybox: true
 
-# Tag Plugins settings (标签外掛)
+# Tag Plugins settings (標籤外掛)
 # --------------------------------------
 
 # mermaid
@@ -785,20 +831,17 @@ snackbar:
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#121212' # The background color of Toast Notification in dark mode
 
-# Baidu Push (百度推送)
-baidu_push: false
-
 # https://instant.page/
-# prefetch (預加载)
+# prefetch (預加載)
 instantpage: false
 
 # https://github.com/vinta/pangu.js
-# Insert a space between Chinese character and English character (中英文之间添加空格)
+# Insert a space between Chinese character and English character (中英文之間添加空格)
 pangu:
   enable: false
   field: site # site/post
 
-# Lazyload (圖片懶加载)
+# Lazyload (圖片懶加載)
 # https://github.com/verlok/lazyload
 lazyload:
   enable: false
@@ -809,21 +852,18 @@ lazyload:
 # ---------------
 # pwa:
 #   enable: false
-#   manifest: /image/pwa/manifest.json
-#   apple_touch_icon: /image/pwa/apple-touch-icon.png
-#   favicon_32_32: /image/pwa/32.png
-#   favicon_16_16: /image/pwa/16.png
-#   mask_icon: /image/pwa/safari-pinned-tab.svg
-
-# Disable Baidu transformation on mobile devices (禁止百度转碼)
-disable_baidu_transformation: true
+#   manifest: /pwa/manifest.json
+#   apple_touch_icon: /pwa/apple-touch-icon.png
+#   favicon_32_32: /pwa/32.png
+#   favicon_16_16: /pwa/16.png
+#   mask_icon: /pwa/safari-pinned-tab.svg
 
 # Open graph meta tags
 # https://developers.facebook.com/docs/sharing/webmasters/
 Open_Graph_meta: true
 
-# Caches the contents in a fragment, speed up the generation (開啟hexo自帶的緩存,加快生成速度)
-fragment_cache: true
+# Add the vendor prefixes to ensure compatibility
+css_prefix: true
 
 # Inject
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
@@ -860,6 +900,7 @@ CDN:
   disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
   twikoo: https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js
+  waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
