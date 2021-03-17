@@ -17,8 +17,9 @@ menu:
     - 音乐 || /musics/ || fas fa-music
     - 小说 || /novels/ || fas fa-book
     - 动漫 || /comics/ || fas fa-list-alt
-  友情链接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
+  留言: /contact/ || fas fa-envelope
+  友链: /link/ || fas fa-link
   导航: https://tool.kcyln.xyz/ || fas fa-location-arrow
 
 # Hide the child menu items in mobile sidebar
