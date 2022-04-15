@@ -1,4 +1,4 @@
-﻿# Hexo Configuration
+# Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -11,11 +11,9 @@ author: kcyln
 language: zh-CN
 timezone: ''
 
-
 # URL
-## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://www.kcyln.xyz
-root: /
 # permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink/
 permalink_defaults:
@@ -99,30 +97,28 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-plugins:
-  - hexo-algoliasearch
-## Themes: https://hexo.io/themes/
-theme: butterfly
+# plugins:
+#   - hexo-algoliasearch
 
 aplayer:
   meting: true
   asset_inject: false
 
-algolia:
-  appId: "6PUFXLP7OS"
-  apiKey: "999de1c071e733df1a6cc5d90b12b63a"
-  adminApiKey: "d1423ef7af8e8ffefc5caa192b86311b"
-  chunkSize: 5000
-  indexName: "my_blog"
-  fields:
-    - content:strip:truncate,0,500
-    - excerpt:strip
-    - gallery
-    - permalink
-    - photos
-    - slug
-    - tags
-    - title
+# algolia:
+#   appId: "6PUFXLP7OS"
+#   apiKey: "999de1c071e733df1a6cc5d90b12b63a"
+#   adminApiKey: "d1423ef7af8e8ffefc5caa192b86311b"
+#   chunkSize: 5000
+#   indexName: "my_blog"
+#   fields:
+#     - content:strip:truncate,0,500
+#     - excerpt:strip
+#     - gallery
+#     - permalink
+#     - photos
+#     - slug
+#     - tags
+#     - title
 
 # abbrlink config
 abbrlink:
@@ -144,6 +140,20 @@ nofollow:
   enable: true
   field: site
   exclude:
+
+# sitemap
+sitemap:
+  path: 
+    - sitemap.xml
+    # - sitemap.txt
+  template: ./sitemap_template.xml
+  # template_txt: ./sitemap_template.txt
+  rel: false
+  tags: true
+  categories: true
+
+## Themes: https://hexo.io/themes/
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

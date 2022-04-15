@@ -1,29 +1,31 @@
 # Main menu navigation (導航目錄)
+# see https://butterfly.js.org/posts/4aa8abbe/#導航菜單
 # --------------------------------------
 
-# format: name: link || icon
-# sub-menu
-# name || icon:
-#   name || link || icon
-
 menu:
-  首页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  文档||fas fa-book:
-    - 常用安装 || /posts/f4956656/ || fas fa-cog
-  娱乐||fas fa-heartbeat:
-    - 音乐 || /musics/ || fas fa-music
-    - 小说 || /novels/ || fas fa-book
-    - 动漫 || /comics/ || fas fa-list-alt
-  关于: /about/ || fas fa-heart
-  留言: /contact/ || fas fa-envelope
-  友链: /link/ || fas fa-link
-  导航: https://tool.kcyln.xyz/ || fas fa-location-arrow
-
-# Hide the child menu items in mobile sidebar
-hide_sidebar_menu_child: false
+  # Home: / || fas fa-home
+  # Archives: /archives/ || fas fa-archive
+  # Tags: /tags/ || fas fa-tags
+  # Categories: /categories/ || fas fa-folder-open
+  # List||fas fa-list:
+  #   Music: /music/ || fas fa-music
+  #   Movie: /movies/ || fas fa-video
+  # Link: /link/ || fas fa-link
+  # About: /about/ || fas fa-heart
+    首页: / || fas fa-home
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+    文档||fas fa-book||hide:
+      常用安装: /posts/f4956656/ || fas fa-cog
+    娱乐||fas fa-heartbeat||hide:
+      音乐: /musics/ || fas fa-music
+      小说: /novels/ || fas fa-book
+      动漫: /comics/ || fas fa-list-alt
+    关于: /about/ || fas fa-heart
+    留言: /contact/ || fas fa-envelope
+    友链: /link/ || fas fa-link
+    导航: https://tool.kcyln.xyz/ || fas fa-location-arrow
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -31,7 +33,8 @@ hide_sidebar_menu_child: false
 highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_shrink: none # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_height_limit: false # unit: px
 code_word_wrap: false
 
 # copy settings
@@ -46,7 +49,7 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/kcyln || Github
+  # fab fa-github: https://github.com/kcyln || Github
   fas fa-envelope: mailto:2444572529@qq.com || Email
 
 # search (搜索)
@@ -135,7 +138,26 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/06d003038d596f96490a67d83e490a17.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/d31b81c52c56e279360df906107f35e1.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/4c8aba6876e8030c351168fe612b4f93.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/355a7fe7683fc79afe6090d5d82edbc0.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/c04542457fcea1a1d28a87b3a659872f.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/9e0ecaf8a79f09d110bcfc9e2283a1da.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/48cb5b14c465589595a422d914a1cd94.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/bac7f7a78bb5e03cb68948644b92b1a1.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/03a5f207170001ad4f9feea39373b75f.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/399cc7c1fb6cd8e8239f7969ed777664.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/3315f29e63732c6b925ea6f2d6ce06f4.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/ede0838b172233512b0a75707f22f186.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/5bc39d18f36f73d973f8641b47fc1169.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/ec4b18bf783dff1b0b765077199edc34.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/1a4ff7c5f19198ddf9ef944367a60325.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/038a57f510d261907ea913a6e936cc93.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/4fac55b6e98def6d7ce2b0d224a112d8.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/455efd801aa3f858dde31ba706ff2b9b.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/9fa7bfd0cdd753df4019dac4fed2446e.jpeg
+    - https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2022/04/15/5fcf9f7d590fae723318c733b6408b8d.jpeg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -144,8 +166,8 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
-  subtitle: 'Page Not Found'
+  enable: true
+  subtitle: '页面没有找到'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
@@ -178,14 +200,20 @@ index_post_content:
   method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
+# anchor
+# when you scroll in post, the URL will update according to header id.
+anchor: false
+
 # Post
 # --------------------------------------
 
 # toc (目錄)
 toc:
-  enable: true
+  post: true
+  page: false
   number: true
-  style_simple: false
+  expand: false
+  style_simple: false # for post
 
 post_copyright:
   enable: true
@@ -228,15 +256,11 @@ photofigcaption: false
 # false: disable pagination
 post_pagination: 1
 
-# anchor
-# when you scroll in post, the URL will update according to header id.
-anchor: false
-
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
-  enable: false
+  enable: true
   style: flat # style: simple/flat
-  limit_day: 500 # When will it be shown
+  limit_day: 365 # When will it be shown
   position: top # position: top/bottom
   message_prev: It has been
   message_next: days since the last update, the content of the article may be outdated.
@@ -267,11 +291,8 @@ addtoany:
 
 comments:
   # Up to two comments system, the first will be shown as default
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
-  use:
-    - Waline
-  # - Valine
-  # - Disqus
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus
+  use: Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -283,18 +304,15 @@ comments:
 # https://disqus.com/
 disqus:
   shortname:
+  apikey: # For newest comments widget
 
 # Alternative Disqus - Render comments with Disqus API
 # DisqusJS 評論系統，可以實現在網路審查地區載入 Disqus 評論列表，兼容原版
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
   shortname:
-  siteName:
   apikey:
-  api:
-  nocomment: # display when a blog post or an article has no comment attached
-  admin:
-  adminLabel:
+  option:
 
 # livere (來必力)
 # https://www.livere.com/
@@ -309,37 +327,25 @@ gitalk:
   repo:
   owner:
   admin:
-  language: en # en, zh-CN, zh-TW, es-ES, fr, ru
-  perPage: 10 # Pagination size, with maximum 100.
-  distractionFreeMode: false # Facebook-like distraction free mode.
-  pagerDirection: last # Comment sorting direction, available values are last and first.
-  createIssueManually: false # Gitalk will create a corresponding github issue for your every single page automatically
+  option:
 
 # valine
 # https://valine.js.org
 valine:
   appId: # leancloud application app id
   appKey: # leancloud application app key
-  pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  lang: en # i18n: zh-CN/zh-TW/en/ja
-  placeholder: Please leave your footprints # valine comment input placeholder (like: Please leave your footprints)
-  guest_info: nick,mail,link # valine comment header info (nick/mail/link)
-  recordIP: false # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
-  emojiCDN: # emoji CDN
-  enableQQ: false # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
-  requiredFields: nick,mail # required fields (nick/mail)
+  visitor: false
   option:
 
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://comment-nu.vercel.app/ # Waline server address url
-  avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
-  emojiCDN: # emoji CDN
+  serverURL: https://comment.kcyln.xyz # Waline server address url
   bg: # waline background
+  visitor: false
   option:
 
 # utterances
@@ -366,6 +372,18 @@ facebook_comments:
 twikoo:
   envId:
   region:
+  visitor: false
+  option:
+
+# Giscus
+# https://giscus.app/
+giscus:
+  repo:
+  repo_id:
+  category_id:
+  theme:
+    light: light
+    dark: dark
   option:
 
 # Chat Services
@@ -414,7 +432,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: Hi, welcome to my blog!
+  custom_text: 欢迎来到<a href="https://www.kcyln.xyz">天涯海阁</a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -427,10 +445,6 @@ baidu_analytics: 584bfa4db6126a105facde0677e4ef55
 # Google Analytics
 # https://analytics.google.com/analytics/web/
 google_analytics: G-CYJNKFDP03
-
-# Tencent Analytics ID
-# https://mta.qq.com
-tencent_analytics:
 
 # CNZZ Analytics
 # https://www.umeng.com/
@@ -464,25 +478,11 @@ google_adsense:
 # Verification (站長驗證)
 # --------------------------------------
 
-# Google Webmaster tools verification setting
-# See: https://www.google.com/webmasters/
-google_site_verification:
-
-# Bing Webmaster tools verification setting
-# See: https://www.bing.com/webmaster/
-bing_site_verification:
-
-# Baidu Webmaster tools verification setting
-# See: https://ziyuan.baidu.com/site/
-baidu_site_verification: http://data.zz.baidu.com/urls?site=https://kcyln.gitee.io&token=OxN6ShKmGLRo1lRY
-
-# 360 Webmaster tools verification setting
-# see http://zhanzhang.so.com/
-qihu_site_verification:
-
-# Yandex Webmaster tools verification setting
-# see https://webmaster.yandex.com/
-yandex_site_verification:
+site_verification:
+  # - name: google-site-verification
+  #   content: xxxxxx
+  - name: baidu_site_verification
+    content: http://data.zz.baidu.com/urls?site=https://kcyln.gitee.io&token=OxN6ShKmGLRo1lRY
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -504,6 +504,7 @@ yandex_site_verification:
 #   toc_color: "#00c4b6"
 #   blockquote_padding_color: "#49b1f5"
 #   blockquote_background_color: "#49b1f5"
+#   scrollbar_color: "#49b1f5"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -628,18 +629,14 @@ subtitle:
   effect: true
   # loop (循環打字)
   loop: true
-  # source調用第三方服務
+  # source 調用第三方服務
   # source: false 關閉調用
-  # source: 1  調用搏天api的隨機語錄（簡體）
-  # source: 2  調用一言網的一句話（簡體）
-  # source: 3  調用一句網（簡體）
-  # source: 4  調用今日詩詞（簡體）
+  # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
+  # source: 2  調用一句網（簡體） http://yijuzhan.com/
+  # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: false
-  # 如果有英文逗號' , ',請使用轉義字元 &#44;
-  # 如果有英文雙引號' " ',請使用轉義字元 &quot;
-  # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
-  # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
+  # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
     - 声起立华月独奏，曲末音无心结弦。
     - 音无结弦之时，悦动天使之心，立于浮华之世，奏响天籁之音。
@@ -711,32 +708,18 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
   avatar: true
-  # You can only choose one, or neither
-  valine: false
-  github_issues:
-    enable: false
-    repo:
-  disqus:
-    enable: false
-    forum:
-    api_key:
-  twikoo: false
-  waline: false
 
 # Bottom right button (右下角按鈕)
 # --------------------------------------
 
-# Change font size
-change_font_size: false
-
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
@@ -762,6 +745,14 @@ darkmode:
   # autoChangeMode: false
   autoChangeMode: false
 
+# Don't modify the following settings unless you know how they work (非必要請不要修改 )
+# Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
+# Don't repeat 不要重複
+rightside_item_order:
+  enable: false
+  hide: # readmode,translate,darkmode,hideAside
+  show: # toc,chat,comment
+
 # Lightbox (圖片大圖查看模式)
 # --------------------------------------
 # You can only choose one, or neither (只能選擇一個 或者 兩個都不選)
@@ -778,11 +769,13 @@ fancybox: true
 # --------------------------------------
 
 # mermaid
-# see https://github.com/knsv/mermaid
+# see https://github.com/mermaid-js/mermaid
 mermaid:
   enable: false
   # built-in themes: default/forest/dark/neutral
-  theme: default
+  theme:
+    light: default
+    dark: dark
 
 # Note (Bootstrap Callout)
 note:
@@ -801,14 +794,7 @@ note:
 # other
 # --------------------------------------
 
-# Artitalk
-# see https://artitalk.js.org/
-artitalk:
-  appId:
-  appKey:
-  option:
-
-# Pjax [Beta]
+# Pjax
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
@@ -830,7 +816,7 @@ snackbar:
   enable: true
   position: bottom-left
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
-  bg_dark: '#121212' # The background color of Toast Notification in dark mode
+  bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)
@@ -843,10 +829,12 @@ pangu:
   field: site # site/post
 
 # Lazyload (圖片懶加載)
-# https://github.com/verlok/lazyload
+# https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: false
-  post: /img/loading.gif
+  field: site # site/post
+  placeholder:
+  blur: false
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -874,99 +862,98 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
     # 调整文章TOC目录显示按钮位置
     - '<style type="text/css">#toggle-sidebar {bottom: 80px}</style>'
+
   bottom:
     # - <script src="xxxx"></script>
-    # 添加aplayer
-    - <div class="aplayer no-destroy" data-id="153259573" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div>
-
+    # 添加aplayer，添加“我喜欢的音乐”歌单失败，而且一旦歌单发生变化，需要重启服务
+    - <div class="aplayer no-destroy" data-id="472620452" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
 CDN:
   # main
-  main_css: /css/index.css
-  jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
-  main: /js/main.js
-  utils: /js/utils.js
+  main_css:
+  main:
+  utils:
 
   # pjax
-  pjax: https://cdn.jsdelivr.net/npm/pjax/pjax.min.js
+  pjax:
 
   # comments
-  gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
-  valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
-  disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
-  utterances: https://utteranc.es/client.js
-  twikoo: https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js
-  waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
+  gitalk:
+  gitalk_css:
+  blueimp_md5:
+  valine:
+  disqusjs:
+  disqusjs_css:
+  utterances:
+  twikoo:
+  waline:
+  giscus:
 
   # share
-  addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js
-  sharejs_css: https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css
+  addtoany:
+  sharejs:
+  sharejs_css:
 
   # search
-  local_search: /js/search/local-search.js
-  algolia_js: /js/search/algolia.js
-  algolia_search: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
-  algolia_search_css: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
+  local_search:
+  algolia_js:
+  algolia_search_v4:
+  instantsearch_v4:
 
   # math
-  mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  katex: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
-  katex_copytex: https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js
-  katex_copytex_css: https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css
-  mermaid: https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+  mathjax:
+  katex:
+  katex_copytex:
+  katex_copytex_css:
+  mermaid:
 
   # count
-  busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+  busuanzi:
 
   # background effect
-  canvas_ribbon: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
-  canvas_fluttering_ribbon: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
-  canvas_nest: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js
+  canvas_ribbon:
+  canvas_fluttering_ribbon:
+  canvas_nest:
 
-  lazyload: https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js
-  instantpage: https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js
-  typed: https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js
-  pangu: https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js
+  lazyload:
+  instantpage:
+  typed:
+  pangu:
 
   # photo
-  fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
-  medium_zoom: https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js
+  fancybox_css_v4:
+  fancybox_v4:
+  medium_zoom:
 
   # snackbar
-  snackbar_css: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css
-  snackbar: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js
+  snackbar_css:
+  snackbar:
 
   # effect
-  activate_power_mode: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
-  fireworks: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js
-  click_heart: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js
-  ClickShowText: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js
+  activate_power_mode:
+  fireworks:
+  click_heart:
+  ClickShowText:
 
   # fontawesome
-  fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
+  fontawesomeV6:
 
   # Conversion between Traditional and Simplified Chinese
-  translate: /js/tw_cn.js
+  translate:
 
-  # justifiedGallery
-  justifiedGallery_js: https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
-  justifiedGallery_css: https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css
+  # flickr-justified-gallery
+  flickr_justified_gallery_js:
+  flickr_justified_gallery_css:
 
   # aplayer
-  aplayer_css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
-  aplayer_js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
-  meting_js: https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
+  aplayer_css:
+  aplayer_js:
+  meting_js:
 
   # Prism.js
-  prismjs_js: https://cdn.jsdelivr.net/npm/prismjs/prism.min.js
-  prismjs_lineNumber_js: https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
-  prismjs_autoloader: https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
-
-  artitalk: https://cdn.jsdelivr.net/npm/artitalk
+  prismjs_js:
+  prismjs_lineNumber_js:
+  prismjs_autoloader:
