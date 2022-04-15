@@ -4,8 +4,9 @@ date: 2019-10-01 12:00:00
 updated: 2019-10-01 12:00:00
 tags:
   - ubuntu
-categories:
   - Linux
+categories:
+  - 操作系统
 abbrlink: d0edc1ed
 keywords: Linux,Ubuntu
 description: 这里记录了一些Linux常用的基本的命令。

@@ -5,7 +5,7 @@ updated: 2020-08-07 00:00:00
 tags:
   - gitignore
 categories:
-  - Git
+  - 技术杂谈
 abbrlink: ede1601b
 keywords: git,gitignore
 description: 关于.gitignore不生效原因和解决方法

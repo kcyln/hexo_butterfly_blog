@@ -3,8 +3,9 @@ title: ubuntu 16.04虚拟机使用jupyter notebook报错
 tags:
   - jupyter notebook
   - ubuntu
-categories:
   - Python
+categories:
+  - 技术杂谈
 abbrlink: 2157fcb1
 date: 2019-10-01 12:00:00
 updated: 2019-10-01 12:00:00

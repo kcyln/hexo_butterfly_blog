@@ -2,8 +2,9 @@
 title: python3下读取redis返回bytes类型的问题
 tags:
   - redis
-categories:
   - Python
+categories:
+  - 技术杂谈
 abbrlink: ec1f4cbd
 date: 2020-09-23 00:00:00
 updated: 2020-09-23 00:00:00

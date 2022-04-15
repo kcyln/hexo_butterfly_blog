@@ -2,8 +2,9 @@
 title: urllib添加头信息的两种方法
 tags:
   - urllib
-categories:
   - Python
+categories:
+  - 网络爬虫
 abbrlink: 5254b9a
 date: 2019-10-01 12:00:00
 updated: 2019-10-01 12:00:00

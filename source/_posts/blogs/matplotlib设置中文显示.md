@@ -2,8 +2,9 @@
 title: matplotlib设置中文显示
 tags:
   - matplotlib
-categories:
   - Python
+categories:
+  - 技术杂谈
 abbrlink: 695ebb9c
 date: 2019-10-01 12:00:00
 updated: 2019-10-01 12:00:00
