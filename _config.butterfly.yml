@@ -369,7 +369,7 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: http://comment.kcyln.xyz # Waline server address url
+  serverURL: https://comment.kcyln.xyz # Waline server address url
   bg: # waline background
   pageview: false
   option:
