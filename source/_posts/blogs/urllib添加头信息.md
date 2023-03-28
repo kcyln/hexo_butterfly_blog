@@ -4,7 +4,7 @@ tags:
   - urllib
   - Python
 categories:
-  - 网络爬虫
+  - 爬虫
 abbrlink: 5254b9a
 date: 2019-10-01 12:00:00
 updated: 2019-10-01 12:00:00

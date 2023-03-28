@@ -4,7 +4,7 @@ tags:
   - redis
   - Python
 categories:
-  - 技术杂谈
+  - Redis
 abbrlink: ec1f4cbd
 date: 2020-09-23 00:00:00
 updated: 2020-09-23 00:00:00

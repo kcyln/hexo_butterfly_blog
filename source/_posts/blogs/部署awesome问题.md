@@ -3,7 +3,7 @@ title: 部署awesome时报错
 tags:
   - supervisor
 categories:
-  - 技术杂谈
+  - Web
 abbrlink: cb42f876
 date: 2019-10-01 12:00:00
 updated: 2019-10-01 12:00:00

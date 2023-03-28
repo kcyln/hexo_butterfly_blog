@@ -10,7 +10,10 @@ comments: false
 
 
 ## 个人简介
-
-
+- python
+- golang
+- vuejs
+- docker
+- 爬虫
 ## 联系方式
 

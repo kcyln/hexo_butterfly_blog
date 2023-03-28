@@ -4,7 +4,7 @@ tags:
   - pip
   - Python
 categories:
-  - Python基础
+  - Python
 abbrlink: 942da6d9
 date: 2020-08-19 00:00:00
 updated: 2022-04-15 23:23:09

@@ -6,7 +6,7 @@ tags:
   - ubuntu
   - Linux
 categories:
-  - 操作系统
+  - Linux
 abbrlink: d0edc1ed
 keywords: Linux,Ubuntu
 description: 这里记录了一些Linux常用的基本的命令。

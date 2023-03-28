@@ -5,7 +5,7 @@ tags:
   - scrapy
   - Python
 categories:
-  - 网络爬虫
+  - 爬虫
 abbrlink: fd59dc2b
 date: 2019-10-01 12:00:00
 updated: 2019-10-01 12:00:00

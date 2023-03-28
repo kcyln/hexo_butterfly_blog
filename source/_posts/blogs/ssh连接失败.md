@@ -3,7 +3,7 @@ title: ssh连接失败
 tags:
   - ssh
 categories:
-  - 技术杂谈
+  - Linux
 abbrlink: a28edf8d
 date: 2019-10-01 12:00:00
 updated: 2019-10-01 12:00:00

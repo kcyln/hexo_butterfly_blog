@@ -5,7 +5,7 @@ tags:
   - ubuntu
   - Python
 categories:
-  - 技术杂谈
+  - Python
 abbrlink: 2157fcb1
 date: 2019-10-01 12:00:00
 updated: 2019-10-01 12:00:00

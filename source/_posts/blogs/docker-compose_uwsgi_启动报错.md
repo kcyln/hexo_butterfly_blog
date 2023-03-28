@@ -7,7 +7,7 @@ tags:
   - uwsgi
   - Python
 categories:
-  - 技术杂谈
+  - Docker
 abbrlink: 9fd46b0b
 date: 2020-09-20 00:00:00
 updated: 2020-09-20 00:00:00
