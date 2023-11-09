@@ -675,7 +675,9 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://images6.alphacoders.com/133/1337197.png)
+background: url(https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2023/11/09/fa1da969d4a03120a9eed0892b936bab.png)
+# background: url(https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2023/11/09/f90aff5620395aa7d52cba5caa8ef935.jpg)
+# background: url(https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2023/11/09/210b0082f66875297c0b00a9fc770f21.jpg)
 
 # Footer Background
 footer_bg: true
