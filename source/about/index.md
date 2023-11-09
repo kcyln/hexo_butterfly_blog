@@ -5,15 +5,10 @@ top_img: https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/12/09/325bef
 comments: false
 ---
 
-
-# 个人信息
-
-
 ## 个人简介
 - python
 - golang
 - vuejs
 - docker
 - 爬虫
-## 联系方式
 
