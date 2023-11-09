@@ -1,0 +1,364 @@
+/* 各个ico标签的颜色 */
+/* 顶部导航-真我 */
+i.fa-fw.fas.fa-heartbeat {
+  color: red;
+}
+i.fa-fw.fas.fa-link {
+  color: #5592f4;
+}
+i.fa-fw.fas.fa-heart {
+  color: red;
+}
+i.fa-fw.fas.fa-coffee {
+  color: #c0763a;
+}
+i.fa-fw.fas.fa-cog {
+  color: #eecd50;
+}
+i.fa-fw.fas.fa-book {
+  color: #474bd0;
+}
+/* 顶部导航-分类 */
+i.fa-fw.fas.fa-folder-open {
+  color: #e1993f;
+}
+
+/* 文章列表及文章内容 */
+i.fas.fa-inbox {
+  color: #5592f4;
+}
+i.fas.fa-tag {
+  color: red;
+}
+i.far.fa-file-word {
+  color: coral;
+}
+i.far.fa-clock {
+  color: #259fea;
+}
+i.far.fa-eye {
+  color: #ac5485;
+}
+i.fas.fa-history {
+  color: #ecb017;
+}
+i.far.fa-calendar-alt {
+  color: #12d919;
+}
+i.fas.fa-angle-right {
+  color: #cb6565;
+}
+span.article-meta-separator {
+  color: #e1e18a;
+}
+span.post-meta-separator {
+  color: #e1e18a;
+}
+i.fab.fa-qq {
+  color: #1296db;
+}
+i.fab.fa-github {
+  color: #333333;
+}
+i.fas.fa-envelope {
+  color: #333333;
+}
+i.fas.fa-rss {
+  color: #df8643;
+}
+i.fas.fa-stream {
+  color: #4286d3;
+}
+i.fas.fa-tags {
+  color: #dc5050;
+}
+i.fas.fa-chart-line {
+  color: #06c5f8;
+}
+i.fas.fa-thumbs-up.fa-fw {
+  color: #e43f20;
+}
+i.fas.fa-comments.fa-fw {
+  color: #69d86a;
+}
+/* 标签颜色结束 */
+
+/* 评论框  */
+.tk-submit,
+.vwrap {
+  box-shadow: 2px 2px 5px #bbb;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0 30px 0;
+}
+
+#post-comment .vright button {
+  padding: 0.3rem 0.8rem;
+  border-color: #fff;
+  background-color: #e58a8a;
+  color: #fff;
+  font-size: 0.7rem;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#post-comment .vmeta .vat {
+  padding: 0 0.8rem;
+  border: 1px solid #e58a8a;
+  border-radius: 5px;
+  color: #e58a8a;
+  font-size: 0.7125rem;
+}
+
+.tk-comment,
+.vcard {
+  box-shadow: 2px 2px 5px #bbb;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0 0 0;
+}
+
+.tk-replies .tk-comment,
+.vquote .vcard {
+  box-shadow: 2px 2px 5px transparent;
+  background: rgba(255, 255, 255, 0);
+  padding: 0;
+}
+
+#vcomments code {
+  color: #c7254e;
+  background-color: #f9f2f4;
+}
+/* 以上为评论区样式修改代码 */
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d097bb;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 2em;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+::-moz-selection {
+  color: #fff;
+  background-color: #e58a8a;
+}
+/* 以上为滚动条 */
+
+/* 下面为转载版权css */
+#post .post-copyright {
+  border-radius: 20px;
+  border-color: #91b7e9;
+  border-style: solid;
+}
+#post .post-copyright .post-copyright-meta {
+  color: #3059ff;
+  font-weight: bold;
+}
+#post .post-copyright .post-copyright-info {
+  color: #3059ff;
+}
+#post .post-copyright .post-copyright-info a {
+  color: #ff6000;
+}
+/* 上面为转载版权css */
+
+/* 下面为footer背景色 */
+#footer {
+  background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+  background-image: linear-gradient(-45deg, rgb(238, 119, 82), rgb(206, 62, 117), rgb(35, 166, 213), rgb(35, 213, 171));
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: 400% 400%;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-size: 400% 400%;
+  /* -webkit-animation: Gradient 10s ease infinite; */
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite;
+  -o-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* 以上为footer背景色 */
+
+/* 以下为footer中的样式 */
+#footer-wrap a {
+  color: #8369fb;
+}
+/* 以上为footer中的样式 */
+
+/* 以下为文章中的``中背景样式 */
+#article-container code {
+  padding: 2px 4px;
+  background-color: #ed72b2;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin: 0 2px;
+}
+/* 以上为``中的背景样式 */
+
+/* 以下为footer中心跳图标样式 */
+#heartbeat {
+  color: red;
+  animation: iconAnimate 1.33s ease-in-out infinite;
+}
+@-moz-keyframes iconAnimate {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  10%,
+  30% {
+    transform: scale(0.9);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: scale(1.1);
+  }
+  50%,
+  70% {
+    transform: scale(1.1);
+  }
+}
+@-webkit-keyframes iconAnimate {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  10%,
+  30% {
+    transform: scale(0.9);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: scale(1.1);
+  }
+  50%,
+  70% {
+    transform: scale(1.1);
+  }
+}
+@-o-keyframes iconAnimate {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  10%,
+  30% {
+    transform: scale(0.9);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: scale(1.1);
+  }
+  50%,
+  70% {
+    transform: scale(1.1);
+  }
+}
+@keyframes iconAnimate {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  10%,
+  30% {
+    transform: scale(0.9);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: scale(1.1);
+  }
+  50%,
+  70% {
+    transform: scale(1.1);
+  }
+}
+/* 以上为footer中心跳图标样式 */
+
+/* 以下为更换站点字体 */
+@font-face {
+  font-family: 'tzy';
+  /* 字体名自定义即可 */
+  src: url('https://npm.elemecdn.com/ethan4116-blog/lib/font/ZhuZiAWan.ttf');
+  /* 字体文件路径 */
+  font-display: swap;
+}
+
+body,
+.gitcalendar {
+  font-family: tzy !important;
+}
+/* 以上为更换站点字体 */
+
+/* 以下为文章正文的标题颜色 */
+div#post h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: #6e8eff;
+}
+
+/* 文章正文中引用正文样式 */
+div#post blockquote {
+  border-radius: 6px;
+  color: #487ced;
+}
+
+/* 正文代码块内部上下距离 */
+#article-container figure.highlight pre {
+  padding: 12px 0;
+}
+/* 正文代码块内部注释颜色 */
+figure.highlight pre .comment {
+  color: #43b01687;
+}
+
+/* 文章正文标题颜色结束 */
+
+/* 首屏灰色 */
+/* #page-header.full_page {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+  -webkit-filter: grayscale(100%);
+} */
